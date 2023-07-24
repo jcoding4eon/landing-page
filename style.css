@@ -4,6 +4,11 @@
 
 /*Set background color as well as height and width for each section*/
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header,
 .footer {
     background-color: #1f2937;
@@ -12,8 +17,9 @@
 }
 
 .header {
-    height: 300px;
+    height: 400px;
 }
+
 
 .section__two {
    background-color: #fff;
@@ -52,3 +58,80 @@
 }
 
 /*Style header section*/
+.logo__text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+
+.nav__text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero__text {
+    font-size: 48px;
+    font-weight: 800;
+    margin:;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body__heading {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quote__text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.quote__reference {
+   color: #E5E7EB; 
+}
+
+.div__cta--blue {
+    background-color: #3882f6;
+    height: auto;
+    margin: 0 200px 0 200px;
+    border-radius: 10px;
+}
+
+/* Position elements using flexbox and other tools */
+.ul__nav-bar {
+    list-style: none;
+    display: flex;
+}
+
+
+.head__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__text {
+    margin: 10px;
+}
+
+.hero__section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.left__card {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.right__card {
+    width: 100%;
+}
+
+
